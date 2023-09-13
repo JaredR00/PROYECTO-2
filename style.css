@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('https://th.bing.com/th/id/R.d4a9fd21ee58f64b64459e36c48f5efb?rik=a%2bjxfuv0VufnLA&riu=http%3a%2f%2fimages.huffingtonpost.com%2f2016-06-22-1466594711-3925744-websitehosting-thumb.png&ehk=%2bysjBqGPm0AItW8%2bQgyrn%2fpN9sOEK%2fIm8k9ga8ntqec%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; /* Para que la imagen de fondo cubra todo el viewport */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+}
+
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 28px;
+    color: #000000;
+}
+
+/* Estilos específicos para los títulos con colores */
+h1 span {
+    color: red;
+}
+
+h1 span:nth-child(2) {
+    color: green;
+}
+
+h1 span:nth-child(3) {
+    color: blue;
+}
+
+p span {
+    color: orange;
+}
+
+/* Configuración de colores para las secciones específicas */
+#como-funciona p,
+#por-que-necesito p {
+    color: #333;
+}
+
